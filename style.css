@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    padding: 50px;
+    font-family: sans-serif;
+    background: #eec4f2;
+    color: #6C107A;
+  }
+  header {
+    position: relative;
+    padding: 10px;
+    background-color: #F5EBF7;
+    border-radius: 5px;
+  }
+  nav {
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    text-align: right;
+  }
+  a {
+    color: #6C107A;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .bandera {
+    background-color: #6C107A;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+  }
+  .thailand {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .intro {
+    width: 450px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #F5EBF7;
+    border-radius: 5px;
+  }
+  .low {
+    color: blue;
+  }
+  .middle {
+    color: lightgreen;
+  }
+  .high {
+    color: red;
+  }
+  table {
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+  }
+  footer {
+    background-color: #C9E3AC;
+    color: purple;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  
